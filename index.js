@@ -1,11 +1,10 @@
 import React from 'react'
-import PropTypes from 'deprecated-react-native-prop-types'
-import ReactNative, {
+import PropTypes from 'prop-types'
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
+import {
   View,
-  Text,
   TouchableOpacity,
   FlatList,
-  ViewPropTypes,
 } from 'react-native'
 import SketchCanvas from './src/SketchCanvas'
 import { requestPermissions } from './src/handlePermissions';
