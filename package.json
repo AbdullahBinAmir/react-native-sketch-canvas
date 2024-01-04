@@ -21,6 +21,6 @@
   "nativePackage": true,
   "license": "MIT",
   "dependencies": {
-    "prop-types": "^15.8.1"
+    "deprecated-react-native-prop-types": "^5.0.0"
   }
 }
